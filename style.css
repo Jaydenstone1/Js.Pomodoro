@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+  margin: 0px
+  
+}
+
+html {
+  background-color: #3C3A3D;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+#header {
+  height: 8vh;
+  background-color: #FFCB70;
+  border: none;
+}
+
+#content {
+  display: flex;
+  flex: 1;
+}
+
+#footer {
+  height: 4vh;
+  background-color: #FFCB70;
+  border: none;
+}
+
+.navList {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  padding: 0px 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+#hourGlass {
+  width: 30%;
+
+}
+
+#countDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  font-size: 60px;
+}
+
+.timerBox {
+  background: rgb(255 203 112 / 75%);
+  width: 50%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+
+#time {
+  font-size: 62px;
+  
+}
+
+button {
+  height: 55px;
+  width: 200px;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 3px 5px rgb(152, 40, 221);
+}
+
+
+
+
+
+
+
+
